@@ -1,7 +1,6 @@
 # Dungeon Crawler
 
-A top-down pygame dungeon crawler built by following the Udemy course:
-https://www.udemy.com/course/pygame-dungeon-crawler/
+A top-down pygame dungeon crawler built by following the Udemy course: [Pygame Dungeon Crawler — Code with Rusty (Udemy)](https://www.udemy.com/course/pygame-dungeon-crawler/)
 
 This repository is a course clone and learning project based on the course material. It is intended to document the implementation I followed while learning pygame game development.
 
@@ -33,11 +32,9 @@ Add a few gameplay screenshots here to make the repository easier to browse on G
 
 Example gallery (drop images into `assets/images/screenshots/`):
 
-<div align="center">
-	<img src="assets/images/screenshots/main-menu.png" width="300" alt="Main menu" />
-	<img src="assets/images/screenshots/gameplay.png" width="300" alt="Gameplay" />
-	<img src="assets/images/screenshots/pause-screen.png" width="300" alt="Pause screen" />
-</div>
+|                       Main menu                       |                      Gameplay                       |                        Pause screen                         |
+| :---------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |
+| ![Main menu](assets/images/screenshots/main-menu.png) | ![Gameplay](assets/images/screenshots/gameplay.png) | ![Pause screen](assets/images/screenshots/pause-screen.png) |
 
 If you do not have screenshots yet, create the folder `assets/images/screenshots/` and add PNGs named `main-menu.png`, `gameplay.png`, and `pause-screen.png`.
 The repository currently includes these captures saved via the in-game F12 shortcut:
@@ -54,9 +51,9 @@ How to capture screenshots
 ```py
 # inside the event loop, where `screen` is your display surface
 if event.type == pygame.KEYDOWN and event.key == pygame.K_F12:
-		import datetime
-		ts = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-		pygame.image.save(screen, f"assets/images/screenshots/screenshot-{ts}.png")
+    import datetime
+    ts = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+    pygame.image.save(screen, f"assets/images/screenshots/screenshot-{ts}.png")
 ```
 
 Add screenshots that show: the title/main menu, active gameplay with the HUD visible, and either the pause or death screen. Those three images convey the game's flow to visitors.
