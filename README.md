@@ -30,14 +30,14 @@ python main.py
 
 Add a few gameplay screenshots here to make the repository easier to browse on GitHub.
 
-Example gallery (drop images into `assets/images/screenshots/`):
+Gallery (drop images into `assets/images/screenshots/`):
 
 |                       Main menu                       |                      Gameplay                       |                        Pause screen                         |
 | :---------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------------------: |
 | ![Main menu](assets/images/screenshots/main-menu.png) | ![Gameplay](assets/images/screenshots/gameplay.png) | ![Pause screen](assets/images/screenshots/pause-screen.png) |
 
 If you do not have screenshots yet, create the folder `assets/images/screenshots/` and add PNGs named `main-menu.png`, `gameplay.png`, and `pause-screen.png`.
-The repository currently includes these captures saved via the in-game F12 shortcut(And then update it respectively according to corresponding screesnhot with it's purpose and context):
+The repository will include these captures saved via the in-game F12 shortcut(And then update it according to corresponding screesnhot with that screenshot's purpose and context respectively):
 
 - `assets/images/screenshots/screenshot-20260525-145546.png`
 - `assets/images/screenshots/screenshot-20260525-145638.png`
