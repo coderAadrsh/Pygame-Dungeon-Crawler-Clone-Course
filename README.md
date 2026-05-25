@@ -37,7 +37,7 @@ Gallery (drop images into `assets/images/screenshots/`):
 | ![Main menu](assets/images/screenshots/main-menu.png) | ![Gameplay](assets/images/screenshots/gameplay.png) | ![Pause screen](assets/images/screenshots/pause-screen.png) |
 
 If you do not have screenshots yet, create the folder `assets/images/screenshots/` and add PNGs named `main-menu.png`, `gameplay.png`, and `pause-screen.png`.
-The repository will include these captures saved via the in-game F12 shortcut(And then update it according to corresponding screesnhot with that screenshot's purpose and context respectively):
+The repository will include these captures saved via the in-game F12 shortcut(And then update name of it according to corresponding screesnhot with that screenshot's purpose and context respectively):
 
 - `assets/images/screenshots/screenshot-20260525-145546.png`
 - `assets/images/screenshots/screenshot-20260525-145638.png`
