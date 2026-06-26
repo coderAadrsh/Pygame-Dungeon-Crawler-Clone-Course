@@ -68,4 +68,3 @@ Use the mouse to click menu buttons.
 
 - This project was created as part of a course walkthrough.
 - If you publish this publicly, make sure you are allowed to share any course-provided assets or code.
-- ijdoajdoajds
